@@ -45,14 +45,42 @@
 
 .name{
   color:#999;
+  font-weight: bold;
+  line-height: 15px;
+  font-size: 11px;
 }
 
 .board{
   color: #717171;
   font-weight: bold;
+  line-height: 15px;
+  font-size: 11px;
 }
 
 .main{
   background-color: #E9E9E9;
   padding: 20px;
+}
+
+.navbar-form {
+    overflow: auto;
+}
+.navbar-form .form-control {
+    display: inline-block;
+    width: 100%; 
+    vertical-align: middle;
+}
+.navbar-form .form-group {
+    display: inline;
+}
+
+.logo {
+  width: 30px;
+  height: 30px;
+  margin-bottom: 5px;
+}
+
+
+.navbar-form .input-group > .form-control {
+width: 999px !important;
 }
